@@ -151,57 +151,59 @@
                     <input class="form-control" type="email" name="email" id="" required>
                 </div>
                 <div class="mb-3">
-                <label class="form-label" for="date">Data de ida</label>
-                <input  class="form-control" type="Date" name="ida" id="" required> 
-            </div>
-            <div class="mb-3">
-                <label  class="form-label" for="#">Data de volta </label><br>
-                <input class="form-control" type="date" name="volta" id="" required> 
-            </div>
-            <div class="mb-3">
-                <label class="form-label" for="number">Quantidade de pessoas </label> 
-                <input class="form-control" type="number" name="quantidade" id="">
-            </div>
+                    <label class="form-label" for="ida">Data de ida</label>
+                    <input class="form-control" type="Date" name="ida" id="" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="volta">Data de volta </label><br>
+                    <input class="form-control" type="date" name="volta" id="" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="number">Quantidade de pessoas </label>
+                    <input class="form-control" type="number" name="quantidade" id="">
+                </div>
             </fieldset>
             <fieldset>
-                <legend for="#"> Quais Serviços deseja contratar ? </legend> 
-                <label for="">
-                    <br><input type="checkbox" name="Passagens" id="Passagens"> compra de Passagens
-                </label>
-                <label for="">
-                    <br><input type="checkbox" name="hospedagen" id="hospedagen"> Reserva de hospedagen
-                </label>
-                <label for="">
-                    <br><input type="checkbox" name="Véiculos" id="Véiculos"> Aluguel de Véiculos
-                </label>
+                <legend for="#"> Quais Serviços deseja contratar ? </legend>
+                <div class="form-check">
+                    <label class="form-check-label" for="Passagens"></label>
+                    <input class="form-check-input" type="checkbox" name="Passagens" id="Passagens"> compra de Passagens
+
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="hospedagen"></label>
+                    <input class="form-check-input" type="checkbox" name="hospedagen" id="hospedagen"> Reserva de
+                    hospedagen
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for=" Véiculos"> </label>
+                    <input class="form-check-input" type="checkbox" name="Véiculos" id="Véiculos"> Aluguel de Véiculos
+
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Forma de pagamento</legend>
-                <label for="">
-                    <br><input type="radio" name="pix" id="pix"> Pix
-                </label>
-                <label for="">
-                    <br><input type="radio" name="cartao" id="cartao"> Cartão de crédito
-                </label>
-                <label for="">
-                    <br><input type="radio" name="boleto" id="boleto"> Boleto
-                </label>
+                <div class="">
+                    <label class="" for="pix"></label>
+                    <input class="" type="radio" name="pix" id="pix"> Pix
+                </div>
+                <label for="cartao"></label>
+                <input class="" type="radio" name="cartao" id="cartao"> Cartão de crédito
+                <div>
+                    <label class="ch-" for="boleto"></label>
+                    <input class="" type="radio" name="boleto" id="boleto"> Boleto
+                </div>
             </fieldset>
-            <fieldset>
-                <legend>Prazo para pagamento </legend>
 
-                <select name="prazo" id="prazo" required>
-                    <option value="avista">A vista</option>
-                    <option value="5x">5x sem juros </option>
-                    <option value="10x">10x com juros </option>
-                </select>
+            <legend>Prazo para pagamento </legend>
 
-            </fieldset>
-            <label for="#"> Comentário </label> <br>
-            <textarea name="comentário" id="" cols="30" rows="10"></textarea> <br>
-
-
-            <br> <button> Enviar </button>
+            <select name="prazo" id="prazo" required>
+                <option value="avista">A vista</option>
+                <option value="5x">5x sem juros </option>
+                <option value="10x">10x com juros </option>
+            </select>
+            <br>
+            <br> <button class="btn btn-light"> Enviar </button>
         </form>
     </section> <br><br>
     <hr>
